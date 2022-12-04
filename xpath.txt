@@ -1,0 +1,4 @@
+Links = //text-fill/a/@href
+Titulo = //div[@class="mb-auto"]h2/span/text()
+Resumen = //div[@class="lead"]/p/text()
+Cuerpo = //div[@class="html-content"]/p[not(@class)]/descendant-or-self::*/text()
